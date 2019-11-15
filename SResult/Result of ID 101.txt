@@ -1,0 +1,78 @@
+------Your Result------
+
+mark for course: Bangla_1_A is: 94
+
+mark for course: English_1_a is: 70
+
+mark for course: math_1_A is: 75
+
+mark for course: Religion_1_A is: 84
+
+mark for course: Social_Science_1 is: 78
+
+mark for course: Drawing_1_A is: 82
+
+mark for course: Science_1_A is: 80
+
+mark for course: GK_1_A is: 95
+
+your tolat mark is: 658
+
+your average is: 82
+ WINDOW DeACT 
+ WINDOW ICONi 
+ WINDOW DeCONi 
+ WINDOW ACT 
+ suggest course
+Connecting to database..
+creating statement
+ WINDOW DeACT 
+ WINDOW ACT 
+LOGING OUT
+ WINDOW DeACT 
+ WINDOW ACT 
+ WINDOW DeACT 
+ WINDOW ACT 
+Login is WORKING
+creating statement
+you've successfully logged in
+Connecting to database..
+creating statement
+you've successfully logged in
+Connecting to database..
+User Entry ===> 1 true
+creating statement
+you've successfully logged in
+Connecting to database..
+TEACHER's FRAME
+Connecting to database..
+ WINDOW DeACT 
+ WINDOW ACT 
+cls: 2 sub: BANGLA
+ COnStruCT OPTION 
+ WINDOW DeACT 
+ WINDOW ACT 
+ WINDOW OPENED 
+setMarks cls: 2 sub: null
+ WINDOW DeACT 
+ WINDOW ACT 
+ WINDOW DeACT 
+ WINDOW ACT 
+ BACK 
+ WINDOW DeACT 
+ WINDOW ACT 
+class ID: 2
+creating statement
+ MARKS LISt 
+ WINDOW DeACT 
+ WINDOW ACT 
+ WINDOW DeACT 
+ WINDOW ACT 
+ PASS CHANGE 
+enter new password : 
+ WINDOW DeACT 
+ WINDOW ACT 
+Connecting to database..
+ID: 1
+1 rows updated
+ WINDOW CLOSING 

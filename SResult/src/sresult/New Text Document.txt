@@ -1,0 +1,68 @@
+ public boolean matchStuPass(String id, String pass){
+        boolean b=false;
+        String query="select S_pass from students where S_ID like "+id;
+    try{
+         System.out.println("creating statement");
+         stmt=conn.createStatement();
+         ResultSet rs = stmt.executeQuery(query);
+         
+         while(rs.next()){
+             String ID = rs.getString("S_ID");
+             String sp = rs.getString("S_pass");
+             
+             if(pass.equals(sp))
+             {
+                 System.out.println("you've successfully logged in");
+                 b=true;
+             }
+             else
+                 System.out.println("enter again");
+                 
+         }
+         rs.close();
+         stmt.close();;
+         
+         }
+     catch(Exception ex){
+         System.out.println(ex);
+     }
+    return b;
+} 
+     
+    
+    public boolean matchTeaPass(String id, String pass){
+        String p = pass;
+        String i = id;
+        String query="select T_pass from teachers where T_ID like "+i;
+        String sp=null;
+        boolean a = false;
+    try{
+         System.out.println("creating statement");
+         stmt=conn.createStatement();
+         ResultSet rs = stmt.executeQuery(query);
+         
+         while(rs.next())
+         {
+             sp = rs.getString("T_pass");      
+         }
+         rs.close();
+         stmt.close();;
+         
+         if(p.equals(sp)){
+                 System.out.println("you've successfully logged in");
+                 a = true;}
+         else{
+                 System.out.println("wrong pass! Enter again");
+                 a = false;}
+         }
+     catch(Exception ex){
+         System.out.println(ex);
+     }
+        return a;
+        
+    
+    
+
+    
+    }
+     
